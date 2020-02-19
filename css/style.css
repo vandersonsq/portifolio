@@ -1,6 +1,7 @@
+
 #menu ul {
     padding:0px;
-    margin:0px;
+    margin:1px;
     background-color:#EDEDED;
     list-style:none;
 }
@@ -8,14 +9,15 @@
     display: inline; 
 }
 #menu ul li a {
-    padding: 2px 60px;
+    text-align: center;
+    padding: 0px 100px;
     display: inline-block;
 
     /* visual do link */
     background-color:#EDEDED;
     color: #333;
     text-decoration: none;
-    border-bottom:3px solid #EDEDED;
+    border-bottom: 3px solid #EDEDED;
 }
 #menu ul li a:hover {
     background-color:#D6D6D6;
@@ -23,10 +25,9 @@
     border-bottom:3px solid #EA0000;
 }
 body{
-border-radius: 58px;
-background: #033842;
-box-shadow:  29px 29px 58px #0c6173, 
-             -29px -29px 58px #07c3e9;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #33016c, #3d0180);
+    box-shadow:  17px 17px 35px #1a0037,-17px -17px 35px #5802b9;
 }
 
 h2,h3,h4{
@@ -41,35 +42,22 @@ h2,h3,h4{
     width: 100%;
 }
 #sobre{
-    background-color: #eee;
+    background-color: #C0C0C0;
+     color: black;
 }
 .espacamento{
     padding: 7% 0;
 }
 #sobre-paragrafo{
     text-indent: 3%;
-    text-align: justify;
 }
-footer{
-    overflow: hidden;
-    background-color: black;
+#sobre p {
+    text-align: center;
+     color: black;
 }
+
 #imagem-principal{
-    width: 100%;
-    
-}
-footer{
-    overflow: hidden;
-    background-color: Write;
-}
-body{
-    padding-top: 4%;
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-}
-main{
-    flex: 1 0 auto;
+    width: 100%; 
 }
 ul,ol,li{
     text-decoration: none;
@@ -78,4 +66,11 @@ ul,ol,li{
 a, a:hover{
     text-decoration: none;
     color: inherit;
+}
+footer {
+    text-align: center;
+    color: White;
+}
+footer{
+    overflow: hidden;
 }
