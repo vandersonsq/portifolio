@@ -1,9 +1,7 @@
-
 #menu ul {
     padding:0px;
-    margin:1px;
-    background-color:#EDEDED;
-    list-style:none;
+    margin:0px;
+    list-style:none;  
 }
 #menu ul li { 
     display: inline; 
@@ -12,26 +10,29 @@
     text-align: center;
     padding: 0px 100px;
     display: inline-block;
-
-    /* visual do link */
-    background-color:#EDEDED;
-    color: #333;
+    color: White;
     text-decoration: none;
-    border-bottom: 3px solid #EDEDED;
+    border-bottom: 3px
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    border-radius: 58px;
+    background: linear-gradient(145deg, #0d9887, #0fb5a1);
+    box-shadow:20px 20px 52px #06443c,-20px -20px 52px #16fff0;
 }
-#menu ul li a:hover {
-    background-color:#D6D6D6;
+#menu ul li a:hover {  
     color: #6D6D6D;
     border-bottom:3px solid #EA0000;
 }
 body{
-    border-radius: 50px;
-    background: linear-gradient(145deg, #33016c, #3d0180);
-    box-shadow:  17px 17px 35px #1a0037,-17px -17px 35px #5802b9;
+    border-radius: 58px;
+    background: linear-gradient(145deg, #0d9887, #0fb5a1);
+    box-shadow: 20px 20px 52px #06443c,-20px -20px 52px #16fff0;
 }
 
-h2,h3,h4{
+#menu ul li a h2{
     text-align: center;
+    font-size:22px;
 }
 .icones-habilidades{
     margin: 2% 0;
@@ -42,8 +43,10 @@ h2,h3,h4{
     width: 100%;
 }
 #sobre{
+    text-align: center;
     background-color: #C0C0C0;
-     color: black;
+    color: black;
+    font-size:26px;
 }
 .espacamento{
     padding: 7% 0;
@@ -53,9 +56,9 @@ h2,h3,h4{
 }
 #sobre p {
     text-align: center;
-     color: black;
+    color: black;
+    font-size:20px;
 }
-
 #imagem-principal{
     width: 100%; 
 }
@@ -70,7 +73,6 @@ a, a:hover{
 footer {
     text-align: center;
     color: White;
-}
-footer{
     overflow: hidden;
+    font-size:18px;
 }
