@@ -44,6 +44,13 @@ body{
     color: black;
     font-size:20px;
 }
+#sobre2{
+    height: 85px;
+    text-align: center;
+    background-color: White;
+    color: black;
+    font-size:20px;
+}
 .espacamento{
     padding: 7% 0;
 }
