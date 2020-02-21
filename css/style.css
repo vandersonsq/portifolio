@@ -1,9 +1,13 @@
+#contador{
+    text-align: right;
+    color: White;
+}
 #menu ul li { 
     display: inline; 
 }
 #menu ul li a {
     text-align: center;
-    padding: 0px 100px;
+    padding: 0px 50px;
     display: inline-block;
     color: White;
     text-decoration: none;
@@ -17,11 +21,10 @@
     border-bottom:3px solid red;
 }
 body{
-    border-radius: 58px;
-    background: linear-gradient(145deg, #0d9887, #0fb5a1);
-    box-shadow: 20px 20px 52px #06443c,-20px -20px 52px #16fff0;
+    border-radius: 12px;
+    background: linear-gradient(225deg, #5e6f68, #6f847b);
+    box-shadow: -5px 5px 12px #2a312e, 5px -5px 12px #a6c5b8;
 }
-
 #menu ul li a h2{
     text-align: center;
     font-size:22px;
@@ -39,18 +42,18 @@ body{
     text-align: center;
     background-color: #C0C0C0;
     color: black;
-    font-size:26px;
+    font-size:20px;
 }
 .espacamento{
     padding: 7% 0;
 }
 #sobre-paragrafo{
-    text-indent: 3%;
+    text-indent: 0.5%;
 }
 #sobre p {
     text-align: center;
     color: black;
-    font-size:20px;
+    font-size:14px;
 }
 #imagem-principal{
     width: 100%; 
@@ -67,5 +70,41 @@ footer {
     text-align: center;
     color: White;
     overflow: hidden;
-    font-size:18px;
+    font-size:14px;
+}
+.subHeading{
+    text-align: center;
+}
+.contactSection {
+    color: #fff;
+    text-align: center;
+}
+.contactButton {
+    color: #fff;
+    padding: 15px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    text-align: center;
+}
+.contactButton:hover {
+    text-decoration: none;
+    color: #444;
+    background-color: rgb(0,255,255);
+}
+
+.box { 
+    margin-top: 20px;   
+    text-align: right;  
+    
+}
+.coluna{
+    float: left;
+    width: 33.33%;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
