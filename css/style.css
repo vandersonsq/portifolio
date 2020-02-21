@@ -113,5 +113,17 @@ footer {
 .row::after {
     content: "";
     clear: both;
+    
+}
+.coluna2{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+.row2::after {
+    content: "";
+    clear: both;
     display: table;
+    width: 100px;
+    text-align: center;
 }
