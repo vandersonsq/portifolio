@@ -20,10 +20,10 @@
     color: Black;
     border-bottom:3px solid red;
 }
-body{
-    border-radius: 12px;
-    background: linear-gradient(225deg, #5e6f68, #6f847b);
-    box-shadow: -5px 5px 12px #2a312e, 5px -5px 12px #a6c5b8;
+body {
+    border-radius: 82px;
+    background: #0b659b;
+    box-shadow: inset 23px 23px 29px #04283e, inset -23px -23px 29px #12a2f8;
 }
 #menu ul li a h2{
     text-align: center;
@@ -52,7 +52,7 @@ body{
     font-size:20px;
 }
 .espacamento{
-    padding: 7% 0;
+    padding: 7% 0%;
 }
 #sobre-paragrafo{
     text-indent: 0.5%;
@@ -60,7 +60,7 @@ body{
 #sobre p {
     text-align: center;
     color: black;
-    font-size:14px;
+    font-size:16px;
 }
 #imagem-principal{
     width: 100%; 
@@ -74,6 +74,7 @@ a, a:hover{
     color: inherit;
 }
 footer {
+    background-color: black;
     text-align: center;
     color: White;
     overflow: hidden;
@@ -103,20 +104,30 @@ footer {
 
 .box { 
     margin-top: 20px;   
-    text-align: right;  
-    
+    text-align: center;    
 }
 .coluna{
     float: left;
-    width: 33.33%;
+    margin: auto;
+    width: 25%;
+    text-align: center;
 }
+
 .row::after {
     content: "";
-    clear: both;
-    
+    clear: both;    
+}
+
+.espacamento2{
+    padding: 7% 35%;
+}
+
+.espacamento3{
+    padding: 0% 20%;
 }
 .coluna2{
     float: left;
+    margin: auto;
     width: 33.33%;
     text-align: center;
 }
@@ -126,4 +137,8 @@ footer {
     display: table;
     width: 100px;
     text-align: center;
+}
+.box2 { 
+    margin-top: 100px;   
+    text-align: right;
 }

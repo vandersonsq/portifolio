@@ -6,8 +6,7 @@
     <title>Contact</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='../css/style.css'>
-  
-
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/button.css'>
     <nav id="contador">
         <li>
             <a href="#" title="Contador de visitas">Visitantes: <img src="http://www.web-counter.net/count_20091204.php?c=0YiG84xXiVG" alt="Contador de visitas">
@@ -22,39 +21,77 @@
             <li><a href="contact.html"><h2>Contact</h2></a></li>     
         </ul>
     </nav> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    jQuery(document).ready(function(){
+    jQuery("#subirTopo").hide();
+    jQuery('a#subirTopo').click(function () {
+             jQuery('body,html').animate({
+               scrollTop: 0
+             }, 800);
+            return false;
+       });
+    jQuery(window).scroll(function () {
+             if (jQuery(this).scrollTop() > 10) {
+                jQuery('#subirTopo').fadeIn();
+             } else {
+                jQuery('#subirTopo').fadeOut();
+             }
+         });
+    });
+    </script>  
 </head>
 <body>  
     <section id="home">
         <img src="../images/contact.jpg" id="imagem-principal" class="img-fluid" alt="Imagem principal">
     </section>
-
-<section id="sobre2" class="espacamento">
-<div class="row">
-    <div class="box">
-        <div class="coluna">
-            <a href="https://github.com/vandersonsq"><img src="https://img.icons8.com/ios/100/000000/linkedin.png" alt="Meu perfil no github"/></a><br><br>
-        </div>       
-    </div>
-    <div class="box">
-        <div class="coluna">
-            <a href="https://www.linkedin.com/in/vanderson-quintino-a07a6914a/"><img src="https://img.icons8.com/ios/100/000000/github.png" alt="Meu perfil no linkedin"/></a><br><br>
-        </div>  
-    </div>
-</div>
-</section>
-<div id="contact" class="contactSection section">
-    <div class="col-md-12 text-center">
+    <section id="sobre2" class="espacamento2">
+        <div class="row">
+            <div class="box">
+                <div class="coluna">
+                    <a href="https://github.com/vandersonsq"><img src="https://img.icons8.com/nolan/96/github.png" alt="Meu perfil no github"/></a><br><br>
+                </div>       
+            </div>
+            <div class="box">
+                <div class="coluna">
+                    <a href="https://www.linkedin.com/in/vanderson-quintino-a07a6914a/"><img src="https://img.icons8.com/nolan/96/linkedin.png" alt="Meu perfil no linkedin"/></a><br><br>
+                </div>  
+            </div>
+            <div class="box">
+                <div class="coluna">
+                    <a href="https://www.facebook.com/vandersonsq"><img src="https://img.icons8.com/nolan/96/facebook.png" alt="Meu perfil no facebook"/></a><br><br>
+                </div>  
+            </div>
+            <div class="box">
+                <div class="coluna">
+                    <a href="https://api.whatsapp.com/send?phone=5531991196058&text=Chamar%20Vanderson"><img src="https://img.icons8.com/nolan/96/whatsapp.png" alt="Meu perfil no Whatsapp"/></a><br><br>
+                </div>  
+            </div>
+        </div>
+    </section>
+    <div id="contact" class="contactSection section">
+        <div class="col-md-12 text-center">
             <br><br><br><br><br><br><br>
             <p class="subHeading">
-                 Gostou do que está vendo?
+                Gostou do que está vendo?
             </p>
-                <h2>Eu adoraria ouvir de você!</h2>
-            <a href="mailTo:vandersonsq@hotmail.com" class="contactButton">ENVIAR UM EMAIL</a>       
+                <h2>
+                    Eu adoraria ouvir de você!
+                </h2>
+            <a 
+                href="mailTo:vandersonsq@hotmail.com" class="contactButton">ENVIAR UM EMAIL
+            </a>       
+        </div>
     </div>
-</div>
-<footer class="footer">
+     <a id="subirTopo">
+        <img src="https://img.icons8.com/nolan/96/circled-up--v2.png" alt="Subir"/>
+    </a>
+    <br>
+    <footer class="footer">
         <div class="container">
-            <p class="text-center text-white">&copy; Vanderson Quintino - 2020</p>
+            <p class="text-center text-white">
+                &copy; Vanderson Quintino - 2020
+            </p>
         </div>
     </footer>
 </body>

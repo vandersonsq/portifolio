@@ -7,7 +7,7 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <script src='main.js'></script>
     <link rel='stylesheet' type='text/css' media='screen' href='../css/style.css'>
-
+    <link rel='stylesheet' type='text/css' media='screen' href='css/button.css'>
     <nav id="contador">
         <li>
             <a href="#" title="Contador de visitas">Visitantes: <img src="http://www.web-counter.net/count_20091204.php?c=0YiG84xXiVG" alt="Contador de visitas">
@@ -22,54 +22,58 @@
             <li><a href="contact.html"><h2>Contact</h2></a></li>     
         </ul>
     </nav> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    jQuery(document).ready(function(){
+    jQuery("#subirTopo").hide();
+    jQuery('a#subirTopo').click(function () {
+             jQuery('body,html').animate({
+               scrollTop: 0
+             }, 800);
+            return false;
+       });
+    jQuery(window).scroll(function () {
+             if (jQuery(this).scrollTop() > 10) {
+                jQuery('#subirTopo').fadeIn();
+             } else {
+                jQuery('#subirTopo').fadeOut();
+             }
+         });
+    });
+    </script>  
 </head>
 <body>
-<div class="row2">
-    <div class="box2">
-        <div class="coluna2">
-            <a href="#"><img src="../images/img.jpg" alt="#"/></a>
-        </div>       
-    </div>
-    <div class="box2">
-        <div class="coluna2">
-            <a href="#"><img src="../images/img1.jpg" alt="#"/></a>
-        </div>  
-    </div>
-    <div class="box2">
-        <div class="coluna2">
-            <a href="#"><img src="../images/img2.jpg" alt="#"/></a>
-        </div>  
-    </div>
-    <div class="box2">
-        <div class="coluna2">
-            <a href="#"><img src="../images/img.jpg" alt="#"/></a>
-        </div>       
-    </div>
-    <div class="box2">
-        <div class="coluna2">
-            <a href="#"><img src="../images/img1.jpg" alt="#"/></a>
-        </div>  
-    </div>
-    <div class="box2">
-        <div class="coluna2">
-            <a href="#"><img src="../images/img2.jpg" alt="#"/></a>
-        </div>  
-    </div>
-    <div class="box2">
-        <div class="coluna2">
-            <a href="#"><img src="../images/img.jpg" alt="#"/></a>
-        </div>       
-    </div>
-    <div class="box2">
-        <div class="coluna2">
-            <a href="#"><img src="../images/img1.jpg" alt="#"/></a>
-        </div>  
-    </div>
-    <div class="box2">
-        <div class="coluna2">
-            <a href="#"><img src="../images/img2.jpg" alt="#"/></a>
-        </div>  
-    </div>
-</div>
+
+<section id="sobre3" class="espacamento3">
+    <div class="row2">
+        <div class="box2">
+            <div class="coluna2">
+                <a href="#"><img src="../images/img.jpeg" alt="#"/></a><br>
+                Meu pc <p></p><p></p>
+            </div>       
+        </div>
+        <div class="box2">
+            <div class="coluna2">
+                <a href="#"><img src="../images/img2.jpeg" alt="#"/></a><br>
+                Meu pc<p></p><p></p>
+            </div>  
+        </div>
+        <div class="box2">
+            <div class="coluna2">
+                <a href="#"><img src="../images/img3.jpeg" alt="#"/></a><br>
+                Meu pc<p></p><p></p>
+            </div>       
+        </div>
+</section>
+    <a id="subirTopo">
+        <img src="https://img.icons8.com/nolan/96/circled-up--v2.png" alt="Subir"/>
+    </a>
+    <footer class="footer">
+        <div class="container">
+            <p class="text-center text-white">
+                &copy; Vanderson Quintino - 2020
+            </p>
+        </div>
+    </footer>
 </body>
 </html>

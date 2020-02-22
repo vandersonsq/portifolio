@@ -6,6 +6,7 @@
     <title>Home</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/button.css'>
     
     <nav id="contador">
         <li>
@@ -20,7 +21,27 @@
             <li><a href="pages/photos.html"><h2>Photos</h2></a></li>
             <li><a href="pages/contact.html"><h2>Contact</h2></a></li>     
         </ul>
-    </nav>     
+    </nav>  
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    jQuery(document).ready(function(){
+    jQuery("#subirTopo").hide();
+    jQuery('a#subirTopo').click(function () {
+             jQuery('body,html').animate({
+               scrollTop: 0
+             }, 800);
+            return false;
+       });
+    jQuery(window).scroll(function () {
+             if (jQuery(this).scrollTop() > 10) {
+                jQuery('#subirTopo').fadeIn();
+             } else {
+                jQuery('#subirTopo').fadeOut();
+             }
+         });
+    });
+    </script>   
 </head>
 <body>  
     <section id="home">
@@ -30,10 +51,16 @@
         <div class="container">
             <h2>Sobre</h2>
             <p id="sobre-paragrafo">
-                Olá, meu nome é Vanderson da Silva Quintino. Atualmente estudo Sistemas de Informação na PUC MINAS (unidade Barreiro). A aréa que mais me identifiquei foi com Banco de Dados, apesar de ter trabalhado com outras linguagens que são: PHP, JavaScript, C#, HTML e CSS. Atualmente sou casado e muito feliz com minha esposa Patricia da Silva Brito. Para entreterimentos, gosto de jogar futebol e video games.
+                Olá, meu nome é Vanderson da Silva Quintino. Atualmente estudo Sistemas de Informação na PUC MINAS (unidade Barreiro). A aréa que mais me identifiquei foi com Banco de Dados, apesar de ter trabalhado com outras linguagens que são: PHP, JavaScript, C#, HTML e CSS.
+            </p>
+            <p>
+                Atualmente sou casado e muito feliz com minha esposa Patricia da Silva Brito. Para entreterimentos, gosto de jogar futebol e video games.
             </p>
         </div>
     </section>  
+    <a id="subirTopo">
+        <img src="https://img.icons8.com/nolan/96/circled-up--v2.png" alt="Subir"/>
+    </a>
     <footer class="footer">
         <div class="container">
             <p class="text-center text-white">&copy; Vanderson Quintino - 2020</p>
