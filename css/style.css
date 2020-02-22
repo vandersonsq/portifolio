@@ -1,3 +1,5 @@
+
+
 #contador{
     text-align: right;
     color: White;
@@ -21,7 +23,10 @@
     border-bottom:3px solid red;
 }
 body {
-    background-color: #696969;
+        
+    background: #10a7b4;
+    /*background: #FFFFFF url("../images/teste.png");*/
+
 }
 #menu ul li a h2{
     text-align: center;
@@ -32,8 +37,8 @@ body {
     font-size: 7em;
 }
 
-#imagem-principal{
-    width: 100%;
+#fotoperfil{
+    width: 20%;
     height: 
 }
 #sobre{
@@ -61,7 +66,8 @@ body {
     font-size:16px;
 }
 #imagem-principal{
-    width: 100%; 
+    width: 1887px; 
+    height: 600px;
 }
 ul,ol,li{
     text-decoration: none;
@@ -119,10 +125,6 @@ footer {
 .espacamento2{
     padding: 7% 35%;
 }
-
-.espacamento3{
-    padding: 0% 20%;
-}
 .coluna2{
     float: left;
     margin: auto;
@@ -139,4 +141,11 @@ footer {
 .box2 { 
     margin-top: 100px;   
     text-align: right;
+    font-size: 25px; 
+    background:#000;
+    color:#fff; 
+
+}
+.espacamento3{
+    padding: 0% 20%;
 }
