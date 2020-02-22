@@ -21,9 +21,7 @@
     border-bottom:3px solid red;
 }
 body {
-    border-radius: 82px;
-    background: #0b659b;
-    box-shadow: inset 23px 23px 29px #04283e, inset -23px -23px 29px #12a2f8;
+    background-color: #696969;
 }
 #menu ul li a h2{
     text-align: center;
@@ -40,7 +38,7 @@ body {
 }
 #sobre{
     text-align: center;
-    background-color: #C0C0C0;
+    background-color: White;
     color: black;
     font-size:20px;
 }
