@@ -1,11 +1,9 @@
+
+/*Index -------------------------- */
+
 #contador{
     text-align: right;
     color: White;
-}
-#inicio{
-    position: relative;
-    top: -40px;
-    left: 900px;
 }
 #menu ul li { 
     display: inline; 
@@ -16,30 +14,22 @@
     display: inline-block;
     color: White;
     text-decoration: none;
-    border-bottom: 0px
+    border-bottom: 10px
     padding:0px;
     margin:0px;
     list-style:none;
 }
 #menu ul li a:hover {  
     color: Black;
-    border-bottom:3px solid red;
+    border-bottom:2px solid red;
 }
-body {      
-    background: #757575;
-    background-repeat: repeat-y;
-    width:99%;margin:auto;min-width:600px;max-width:2000px
-
+body { 
+    background: #FFFFFF url("../images/home/fundo.jpg") no-repeat right top fixed;  
 }
 #menu ul li a h2{
     text-align: center;
     font-size:22px;
 }
-.icones-habilidades{
-    margin: 2% 0;
-    font-size: 7em;
-}
-
 #fotoperfil{
     width: 20%;
     height: 
@@ -48,15 +38,7 @@ body {
     text-align: center;
     background-color: White;
     color: black;
-    font-size:25px;
-    
-}
-#sobre2{
-    height: 85px;
-    text-align: center;
-    background-color: White;
-    color: black;
-    font-size:20px;
+    font-size:25px;  
 }
 .espacamento{
     padding: 7% 0%;
@@ -77,6 +59,42 @@ a, a:hover{
     text-decoration: none;
     color: inherit;
 }
+.espacamento5{
+    padding: 4% 30%;
+}
+#sobre5 h2{
+    text-align: center;
+    color:white;
+}
+#sobre5 {
+    text-align: center;
+    color: black; 
+    font-size:25px;
+    background-color: orange;
+}
+.colunan{
+    float: left;
+    margin: auto;
+    width: 33.33%;
+    text-align: center;
+}
+.rown::after {
+    content: "";
+    clear: both;
+    display: table;
+    width: 100px;
+    text-align: center;
+}
+.boxn { 
+    margin-top: 100px;   
+    text-align: right;
+    font-size: 25px; 
+    background:#000;
+    color:white; 
+}
+
+/*Rodapé -------------------------- */
+
 footer {
     background-color: black;
     text-align: center;
@@ -84,72 +102,9 @@ footer {
     overflow: hidden;
     font-size:14px;
 }
-.subHeading{
-    text-align: center;
-}
-.contactSection {
-    color: #fff;
-    text-align: center;
-}
-.contactButton {
-    color: white;
-    padding: 15px 20px;
-    display: inline-block;
-    margin-top: 20px;
-    border: 1px solid #fff;
-    border-radius: 2px;
-    text-align: center;
-}
-.contactButton:hover {
-    text-decoration: none;
-    color: #444;
-    background-color: white;
-}
 
-.box { 
-    margin-top: 20px;   
-    text-align: center;    
-}
-.coluna{
-    float: left;
-    margin: auto;
-    width: 25%;
-    text-align: center;
-}
-.row::after {
-    content: "";
-    clear: both;    
-}
+/*Skills -------------------------- */
 
-.espacamento2{
-    padding: 7% 35%;
-}
-.coluna2{
-    float: left;
-    margin: auto;
-    width: 50%;
-    text-align: center;
-    
-
-}
-.row2::after {
-    content: "";
-    clear: both;
-    display: table;
-    width: 100px;
-    text-align: center;
-}
-.box2 { 
-    margin-top: 100px;   
-    text-align: right;
-    font-size: 25px; 
-    background:#000;
-    color:#fff; 
-
-}
-.espacamento3{
-    padding: 0% 20%;
-}
 .coluna4{
     float: left;
     margin: auto;
@@ -173,30 +128,29 @@ footer {
 .espacamento4{
     padding: 0% 20%;
 }
-#sobre5 h2{
-    text-align: center;
-    color:white;
+
+/*Photos --------------------------*/
+
+#sobre3{
+    
 }
-#sobre5 {
-    text-align: center;
-    color: black; 
-    font-size:25px;
-    background-color: orange;
+.espacamento3{
+    padding: 4% 20%;
 }
-.colunan{
+.coluna2{
     float: left;
     margin: auto;
-    width: 25%;
+    width: 50%;
     text-align: center;
 }
-.rown::after {
+.row2::after {
     content: "";
     clear: both;
     display: table;
     width: 100px;
     text-align: center;
 }
-.boxn { 
+.box2 { 
     margin-top: 100px;   
     text-align: right;
     font-size: 25px; 
@@ -204,3 +158,49 @@ footer {
     color:white; 
 }
 
+/*Contact --------------------------*/
+
+#sobre2{
+    height: 110px;
+    text-align: center;
+    color: black;
+    font-size:20px;
+}
+.subHeading{
+    text-align: center;
+}
+.contactSection {
+    color: #fff;
+    text-align: center;
+}
+.contactButton {
+    color: white;
+    padding: 15px 40px;
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    text-align: center;
+}
+.contactButton:hover {
+    text-decoration: none;
+    color: #444;
+    background-color: white;
+}
+.box { 
+    margin-top: 40px;   
+    text-align: center;    
+}
+.coluna{
+    float: left;
+    margin: auto;
+    width: 25%;
+    text-align: center;
+}
+.row::after {
+    content: "";
+    clear: both;    
+}
+.espacamento2{
+    padding: 4% 30%;
+}
