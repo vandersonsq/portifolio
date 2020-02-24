@@ -1,19 +1,22 @@
-
-
 #contador{
     text-align: right;
     color: White;
+}
+#inicio{
+    position: relative;
+    top: -40px;
+    left: 900px;
 }
 #menu ul li { 
     display: inline; 
 }
 #menu ul li a {
     text-align: center;
-    padding: 0px 50px;
+    padding: 0px 60px;
     display: inline-block;
     color: White;
     text-decoration: none;
-    border-bottom: 3px
+    border-bottom: 0px
     padding:0px;
     margin:0px;
     list-style:none;
@@ -22,10 +25,10 @@
     color: Black;
     border-bottom:3px solid red;
 }
-body {
-        
-    /*background:  #52819a;*/
-    background: #FFFFFF url("../images/teste.png");
+body {      
+    background: #757575;
+    background-repeat: repeat-y;
+    width:99%;margin:auto;min-width:600px;max-width:2000px
 
 }
 #menu ul li a h2{
@@ -45,7 +48,8 @@ body {
     text-align: center;
     background-color: White;
     color: black;
-    font-size:20px;
+    font-size:25px;
+    
 }
 #sobre2{
     height: 85px;
@@ -63,11 +67,7 @@ body {
 #sobre p {
     text-align: center;
     color: black;
-    font-size:16px;
-}
-#imagem-principal{
-    width: 1887px; 
-    height: 600px;
+    font-size:20px;
 }
 ul,ol,li{
     text-decoration: none;
@@ -92,7 +92,7 @@ footer {
     text-align: center;
 }
 .contactButton {
-    color: black;
+    color: white;
     padding: 15px 20px;
     display: inline-block;
     margin-top: 20px;
@@ -116,7 +116,6 @@ footer {
     width: 25%;
     text-align: center;
 }
-
 .row::after {
     content: "";
     clear: both;    
@@ -149,3 +148,57 @@ footer {
 .espacamento3{
     padding: 0% 20%;
 }
+.coluna4{
+    float: left;
+    margin: auto;
+    width: 25%;
+    text-align: center;
+}
+.row4::after {
+    content: "";
+    clear: both;
+    display: table;
+    width: 100px;
+    text-align: center;
+}
+.box4 { 
+    margin-top: 100px;   
+    text-align: right;
+    font-size: 25px; 
+    background:#000;
+    color:#fff; 
+}
+.espacamento4{
+    padding: 0% 20%;
+}
+#sobre5 h2{
+    text-align: center;
+    color:white;
+}
+#sobre5 {
+    text-align: center;
+    color: black; 
+    font-size:25px;
+    background-color: orange;
+}
+.colunan{
+    float: left;
+    margin: auto;
+    width: 25%;
+    text-align: center;
+}
+.rown::after {
+    content: "";
+    clear: both;
+    display: table;
+    width: 100px;
+    text-align: center;
+}
+.boxn { 
+    margin-top: 100px;   
+    text-align: right;
+    font-size: 25px; 
+    background:#000;
+    color:white; 
+}
+
