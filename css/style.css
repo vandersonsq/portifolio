@@ -127,8 +127,10 @@ footer {
 .coluna2{
     float: left;
     margin: auto;
-    width: 33.33%;
+    width: 50%;
     text-align: center;
+    
+
 }
 .row2::after {
     content: "";
