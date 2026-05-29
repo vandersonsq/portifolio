@@ -18,20 +18,6 @@ Atuo como desenvolvedor de software focado em backend, trabalhando com sistemas 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
-</div>
-
----
-
-### 📊 GitHub Stats
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=vandersonsq&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vandersonsq&layout=compact&theme=tokyonight&hide_border=true)
-
-</div>
-
 ---
 
 ### 🏢 Experiência
